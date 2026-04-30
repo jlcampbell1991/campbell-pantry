@@ -1,7 +1,7 @@
 use ::axum::{Router, routing::get};
 
 async fn ping() -> &'static str {
-    "pong"
+    "Hi, Kara, I'm the campbell-pantry!"
 }
 
 #[tokio::main]
