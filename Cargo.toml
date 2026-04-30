@@ -13,3 +13,5 @@ tokio = { version = "1.49", default-features = false, features = [
     "macros",
     "net",
 ] }
+dotenvy = "0.15"
+thiserror = { version = "2.0.18", default-features = false }
